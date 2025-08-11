@@ -6,7 +6,7 @@ namespace ConsoleApp
         static void Main(string[] args)
         {
             int x = Number.Add(2, 3);
-            Console.WriteLine(x.ToString());
+            Console.WriteLine("Number.Add(2, 3) = " + x.ToString());
             
             // Create a list of 100 random numbers between 1 and 1000
             List<int> numbers = new List<int>();
@@ -24,7 +24,7 @@ namespace ConsoleApp
             }
 
             int y = Number.AddPrimeNumbers(numbers);
-            Console.WriteLine(y.ToString());
+            Console.WriteLine("Sum of prime numbers = " + y.ToString());
         }             
     }
 }

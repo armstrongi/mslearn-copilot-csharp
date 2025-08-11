@@ -4,6 +4,8 @@ namespace ConsoleApp
     public class Number
     {
         // This class can be used to encapsulate number-related functionalities
+
+        // Write a function to add two numbers
         static public int Add(int a, int b)
         {
             return a + b;
